@@ -1,4 +1,4 @@
-# Headspin Hackathon Challenge
+# HeadSpin Hackathon Challenge
 
 ## Overview
 We as **Infostretch** team has built a Maven based Java project for MMT mobile app automation hackathon challenge organized by the Headspin. Source code has some dependency on third party open source libraries like TestNG, Appium etc. and details are mentioned in **Dependencies** section.
@@ -172,9 +172,9 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 * Set `security.fileuri.strict_origin_policy` to `false`
 * Try to view report now (refresh page if its require)
 
-## Headspin Integration
-To run test on Headspin cloud devices or browsers, we just need to update the `env.properties` file under `resources/platform/{android/ios}` directory for respectively platform.
-> We can specify all [headspin capabilities](https://ui-dev.headspin.io/docs/appium-capabilities) same as below. 
+## HeadSpin Integration
+To run test on [HeadSpin](https://www.headspin.io) cloud devices or browsers, we just need to update the `env.properties` file under `resources/platform/{android/ios}` directory for respectively platform.
+> We can specify all [HeadSpin capabilities](https://ui.headspin.io/docs/appium-capabilities) same as below. 
 ```properties
    driver.name=iosDriver
    remote.server=https://us-nyc.headspin.io:7002/v0/7efa88393c1746fdb35d18b9e3571e71/wd/hub
