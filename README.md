@@ -1,7 +1,7 @@
 # Headspin Hackathon Challenge
 
 ## Overview
-We as **Infostretch** team has built a Maven based Java project for MMT mobile app automation hackathon challenge organized by the Headspin. Source code has some dependency on third party open source libraries like TestNG, Appium etc. and details are mentioned in **Dependencies** section.
+We as **Infostretch** team has built a Maven based Java project for MMT mobile app automation hackathon challenge organized by the HeadSpin. Source code has some dependency on third party open source libraries like TestNG, Appium etc. and details are mentioned in **Dependencies** section.
 
 ## Team - Infostretch
 * Mehul Kagathara (Lead)
@@ -19,7 +19,7 @@ In our implementation, we have tried to demonstrate the idea how we can abstract
 * **Reusable Test Assets** - highly maintainable and repeatable tests utilize reusable test assets, proper modularity and semantic structure.
 * **Test Data Management** - test data should be abstracted from the technical implementation so it is easier to update the data in future and avoid hard coding of data in implementation.
 * **Reporting** - integrate third party reporting engine which ensures access to all relevant execution data which provide insights desired.
-* **Scalability** - solution should be scalable on cloud like Headspin for Continuous Testing and tests should run parallel at scale.
+* **Scalability** - solution should be scalable on cloud like [HeadSpin](https://www.headspin.io) for Continuous Testing and tests should run parallel at scale.
 
 ## Setup & Usage
 Follow below steps in order to setup project and execute the test(s).
@@ -174,7 +174,7 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 
 ## Headspin Integration
 To run test on Headspin cloud devices or browsers, we just need to update the `env.properties` file under `resources/platform/{android/ios}` directory for respectively platform.
-> We can specify all [headspin capabilities](https://ui-dev.headspin.io/docs/appium-capabilities) same as below. 
+> We can specify all [HeadSpin capabilities](https://ui.headspin.io/docs/appium-capabilities) same as below. 
 ```properties
    driver.name=iosDriver
    remote.server=https://us-nyc.headspin.io:7002/v0/7efa88393c1746fdb35d18b9e3571e71/wd/hub
