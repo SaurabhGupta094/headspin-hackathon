@@ -174,7 +174,7 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 
 ## Headspin Integration
 To run test on Headspin cloud devices or browsers, we just need to update the `env.properties` file under `resources/platform/{android/ios}` directory for respectively platform.
-> We can specify all [headspin capabilities](https://ui-dev.headspin.io/docs/appium-capabilities) same as below. 
+> We can specify all [headspin capabilities](https://ui.headspin.io/docs/appium-capabilities) same as below. 
 ```properties
    driver.name=iosDriver
    remote.server=https://us-nyc.headspin.io:7002/v0/7efa88393c1746fdb35d18b9e3571e71/wd/hub
